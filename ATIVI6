@@ -1,0 +1,12 @@
+function mostrarDobro(numero) {
+    if (numero <= 0) {
+        console.log("Só é aceito números positivos maiores que zero");
+    } else {
+        console.log(numero * 2);
+    }
+}
+
+// Testando a função
+mostrarDobro(5);  // Saída: 10
+mostrarDobro(-3); // Saída: Só é aceito números positivos maiores que zero
+mostrarDobro(0);  // Saída: Só é aceito números positivos maiores que zero
